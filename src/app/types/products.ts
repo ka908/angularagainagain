@@ -4,5 +4,5 @@ export interface Product {
   price?: number;
   rating?: number;
   title: string;
-  properties?: string[];
+  properties: string[];
 }
