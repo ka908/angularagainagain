@@ -1,0 +1,19 @@
+<div class="flex justify-center">
+    <mat-card class="shadow w-6/12">
+        <img mat-card-image class="!h-72" [src]="product.imgUrl">
+        <div class="p-4" class="text-sm font-bold">
+            <div>TITLE::{{product.title|lowercase}}</div>
+            price::{{((product.price))}}
+            <div>properties::{{((product.properties))}}</div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Facilis repellat natus nobis ipsa laudantium
+                illo quae sed? Omnis accusamus sint asperiores explicabo
+                ab, eveniet maxime saepe debitis quis, quae
+                quod.</p>
+            <div>(50%) OFF</div>
+        </div>
+        <div class="flex justify-center">
+            <button mat-raised-button color="accent" [routerLink]="'/edit-product/'+product.id">Edit</button>
+        </div>
+    </mat-card>
+</div>

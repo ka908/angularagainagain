@@ -1,0 +1,13 @@
+<div class="flex justify-center items-center mb-4">
+    <app-product-search (searchProduct)="productSearch($event)">
+    </app-product-search>
+</div>
+<div class="p-8 mt-4 grid grid-cols-1 md:grid-cols-3 gap-4">
+    <div class="flex justify-center items-center flex-wrap" *ngFor="let item of filteredProduct">
+        <div class="w-8/12 pr-2 mb-2">
+            <app-product-card [product]="item" (viewProduct)="onViewProduct($event)">
+            </app-product-card>
+            <button mat-raised-button color="primary" (click)="del(item.id)">Delete</button>
+        </div>
+    </div>
+</div>

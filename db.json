@@ -1,0 +1,35 @@
+{
+  "products": [
+    {
+      "id": "4",
+      "title": "watch new",
+      "imgUrl": "https://rukminim1.flixcart.com/image/312/312/k5bcscw0/computer/f/u/j/hp-na-laptop-original-imaferegbpwq9bhc.jpeg?q=70",
+      "price": 0,
+      "rating": 0
+    },
+    {
+      "id": "57c4",
+      "title": "",
+      "imgUrl": "https://rukminim2.flixcart.com/image/312/312/xif0q/dslr-camera/i/o/c/eos-r100-24-1-eos-r100-kit-canon-original-imagqeydhsxgacxp.jpeg?q=70",
+      "price": 0,
+      "rating": 0,
+      "properties": []
+    },
+    {
+      "id": "e7c8",
+      "title": "",
+      "imgUrl": "https://rukminim2.flixcart.com/image/312/312/xif0q/dslr-camera/i/o/c/eos-r100-24-1-eos-r100-kit-canon-original-imagqeydhsxgacxp.jpeg?q=70",
+      "price": 0,
+      "rating": 0,
+      "properties": []
+    },
+    {
+      "id": "225e",
+      "title": "",
+      "imgUrl": "https://rukminim2.flixcart.com/image/612/612/xif0q/watch/o/y/6/1-77138pp01w-sonata-men-original-imah6yjzfqtdwucj.jpeg?q=70",
+      "price": 0,
+      "rating": 0,
+      "properties": []
+    }
+  ]
+}
